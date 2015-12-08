@@ -19,7 +19,11 @@
   <?php
       $base_grant_url = urldecode($_GET['base_grant_url']);
       $user_continue_url = urldecode($_GET['user_continue_url']);
+<<<<<<< HEAD
       $override_continue_url = 'http://www.emirates.com/bh/arabic';
+=======
+      $override_continue_url = 'http://www.emirates.com';
+>>>>>>> c144311542d3258e15897a323deb7a832131fa90
       
       $override_the_users_request = true;
       if ($override_the_users_request) {
